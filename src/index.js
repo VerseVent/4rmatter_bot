@@ -1,7 +1,6 @@
 require("dotenv").config();
 
 const fs = require("fs").promises;
-const path = require("path");
 const fsExtra = require("fs-extra");
 const { exec } = require("child_process");
 const TelegramBot = require("node-telegram-bot-api");
