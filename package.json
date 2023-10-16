@@ -1,0 +1,19 @@
+{
+  "name": "4rmatter_bot",
+  "version": "1.0.0",
+  "description": "telegram bot that formats mpeg to mp3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.3.1",
+    "fluent-ffmpeg": "2.1.2",
+    "fs-extra": "11.1.1",
+    "node-telegram-bot-api": "0.63.0",
+    "nodemon": "3.0.1"
+  }
+}
